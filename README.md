@@ -34,8 +34,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution url](https://your-solution-url.com)
-- Live Site URL: [Live site url](https://your-live-site-url.com)
+- Solution URL: [Github repo](https://github.com/madhukar-30/Notification-page.git)
+- Live Site URL: [Notification page ](https://madhukar-30.github.io/Notification-page/)
 
 ## My process
 
