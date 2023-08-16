@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;800&display=swap');
+
+:root{
+--Red: hsl(1, 90%, 64%);
+--Blue:hsl(219, 85%, 26%);
+--White:hsl(0, 0%, 100%);
+--Very--light--grayish--blue:hsl(210, 60%, 98%);
+--Light--grayish--blue--1:hsl(211, 68%, 94%);
+--Light--grayish--blue--2:hsl(205, 33%, 90%);
+--Grayish--blue:hsl(219, 14%, 63%);
+--Dark--grayish--blue:hsl(219, 12%, 42%);
+--Very--dark-blue:hsl(224, 21%, 14%);
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+
+body{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+
+    background-color: var(--Very--light--grayish--blue);
+}
+.main-container{
+    background-color: var(--White);
+    max-width:700px;
+    padding:1rem;
+    margin:2.5rem 0;
+   
+    border-radius: 0.5rem;
+}
+.cursor-pointer{
+    cursor: pointer;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+}
+header h1{
+    font-size: 1.2rem;
+}
+header span{
+    background-color: var(--Blue);
+    color:var(--White);
+    font-size: 1rem;
+    padding: 0.1rem 0.4rem;
+    border-radius: 0.2rem;
+}
+header button{
+    border:none;
+    background-color:var(--White);
+    color:var(--Dark--grayish--blue);
+    cursor: pointer;
+
+}
+header button:hover{
+    color:var(--Blue);
+}
+.notification{
+    display: flex;
+   padding:0.8rem;
+    background-color: var(--Very--light--grayish--blue);
+    color:var(--Dark--grayish--blue);
+    margin-top:0.5rem;
+    border-radius:0.3rem;
+
+}
+.avatar img{
+    object-fit: cover;
+    width: 40px;
+    height: 40px;
+    margin-right:1rem;
+  
+}
+
+
+
+.circle {
+
+width: 6px;
+height: 6px;
+background-color: var(--Red);
+border-radius: 50%;
+ margin-left:0.2rem;
+ border:none;
+ cursor: pointer;
+
+  }
+  .name{
+    color:var(--Very--dark-blue);
+    font-weight: 800;
+    cursor: pointer;
+  }
+  .name:hover,.tournament:hover{
+    color: var(--Blue);
+  }
+  .time{
+    font-size: 0.9rem;
+  }
+  .tournament{
+    font-weight: 800;
+    color:var(--Dark--grayish--blue);
+    cursor: pointer;
+  }
+
+
+  .private-message{
+    background-color:var(--White);
+  }
+  .message{
+      border:0.1px solid var(--Light--grayish--blue--2);
+    padding:1rem ;
+    margin-right:1rem;
+   margin-top:1rem;
+   cursor: pointer;
+
+  }
+  .message:hover{
+    background-color: var(--Light--grayish--blue--1);
+    
+  }
+  .img-chess{
+    align-self: flex-end;
+  }
+.img-chess img{
+    width:50px;
+    height:50px;
+    cursor: pointer;
+
+}
+.blue-color{
+    color:var(--Blue);
+}
+
+
+.notification-about-kimberly-smith{
+ display:flex; 
+}
+.kimberly-smith{
+    display: flex;
+    flex-direction: column;
+}
+.kimberly-smith-notification{
+   justify-content: space-between;
+   
+}
+
